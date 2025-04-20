@@ -11,11 +11,11 @@
 }
 
 .nav-link {
-  color: var(--text-color); /* Cor padrão dos links, altere conforme necessário */
+  color: var(--text-color);
 }
 
 .nav-link:hover {
-  color: var(--button-color); /* Altere para a cor desejada ao passar o mouse */
+  color: var(--button-color);
 }
 body {
   background-color: var(--primary-color);
