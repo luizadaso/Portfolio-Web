@@ -5,17 +5,17 @@ import { Container, Navbar, Nav, Card, Button } from 'react-bootstrap';
 function App() {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Meu Portfólio</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Início</Nav.Link>
-            <Nav.Link href="#projects">Projetos</Nav.Link>
-            <Nav.Link href="#contact">Contato</Nav.Link>
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container className="justify-content-center">
+          <Nav className="mx-auto">
+            <Nav.Link href="#inicio">Página inicial</Nav.Link>
+            <Nav.Link href="#sobre">Sobre</Nav.Link>
+            <Nav.Link href="#projetos">Projetos</Nav.Link>
+            <Nav.Link href="#contato">Contato</Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Container>
       </Navbar>
+      <br />
 
       <Container className="mt-4">
         <Card>
