@@ -16,20 +16,21 @@ function App() {
         </Container>
       </Navbar>
       <br />
-
+      <div>
       <Container className="mt-4">
-        <Card>
-          <Card.Body>
-            <Card.Title>Bem-vindo ao meu portfólio!</Card.Title>
-            <Card.Text>
-              Sou um desenvolvedor de software com experiência em várias tecnologias.
-            </Card.Text>
-            <Button variant="primary">Saiba mais</Button>
-          </Card.Body>
-        </Card>
+        <div className="d-flex justify-content-start">
+          <Card className="card-sobre" style={{ width: '25rem', height: '25rem' }}>
+            <Card.Body className="cardBody">
+              <Card.Title>Olá!</Card.Title>
+              <Card.Text>
+                Breve texto de apresentação.
+              </Card.Text>
+              <Button className="buttonSaibaMais" href="#sobre">Saiba mais</Button>
+            </Card.Body>
+          </Card>
+        </div>
       </Container>
-
-      {/* Aqui você pode adicionar mais seções, como projetos e contato */}
+    </div>
     </div>
   );
 }
