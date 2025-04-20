@@ -1,5 +1,13 @@
 # 🚧 Em construção...
 
+## Documentação React:
+
+https://react.dev/learn
+
+## Documentação Bootstrap-React: 
+
+https://react-bootstrap.github.io/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
