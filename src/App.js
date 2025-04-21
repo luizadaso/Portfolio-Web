@@ -17,8 +17,8 @@ function App() {
         </Container>
       </Navbar>
       <br />
-      <Container className="mt-2 d-flex align-items-center">
-        <Card className="cardBody me-3" style={{ width: '25rem', height: '25rem' }}>
+      <Container className="mt-2 d-flex justify-content-center align-items-center container-body">
+        <Card className="cardBody me-3" style={{ width: '50rem', height: '30rem' }}>
           <Card.Title>Olá!</Card.Title>
           <Card.Text>
             Breve texto de apresentação.
@@ -32,10 +32,44 @@ function App() {
         <img
           src={minhaImagem}
           alt="Descrição da Imagem" 
-          className="img-fluid"
-          style={{ maxWidth: '25rem', height: 'auto' }}
+          className="img-fluid foto-tech"
         />
       </Container>
+      <Container className="mt-2 d-flex justify-content-center align-items-center container-cards-inferiores">
+      <Card className="cards-inferiores me-3  align-items-center">
+      <Card.Header>Header</Card.Header>
+          <Card.Text>
+            Breve texto de apresentação.
+          </Card.Text>
+          <div className="mt-auto text-center">
+            <Button className="buttons-cards-inferiores" href="#sobre">
+              Acesse
+            </Button>
+          </div>
+        </Card>
+        <Card className="cards-inferiores me-3  align-items-center">
+      <Card.Header>Header</Card.Header>
+          <Card.Text>
+            Breve texto de apresentação.
+          </Card.Text>
+          <div className="mt-auto text-center">
+            <Button className="buttons-cards-inferiores" href="#sobre">
+              Acesse
+            </Button>
+          </div>
+        </Card>
+        <Card className="cards-inferiores me-3  align-items-center">
+      <Card.Header>Header</Card.Header>
+          <Card.Text>
+            Breve texto de apresentação.
+          </Card.Text>
+          <div className="mt-auto text-center">
+            <Button className="buttons-cards-inferiores" href="#sobre">
+              Acesse
+            </Button>
+          </div>
+        </Card>
+        </Container>
     </div>
   );
 }
