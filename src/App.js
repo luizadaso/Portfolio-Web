@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav, Card, Button } from 'react-bootstrap';
+import minhaImagem from './assets/Foto-Tech.png';
 
 function App() {
   return (
@@ -16,21 +17,25 @@ function App() {
         </Container>
       </Navbar>
       <br />
-      <div>
-      <Container className="mt-4">
-        <div className="d-flex justify-content-start">
-          <Card className="card-sobre" style={{ width: '25rem', height: '25rem' }}>
-            <Card.Body className="cardBody">
-              <Card.Title>Olá!</Card.Title>
-              <Card.Text>
-                Breve texto de apresentação.
-              </Card.Text>
-              <Button className="buttonSaibaMais" href="#sobre">Saiba mais</Button>
-            </Card.Body>
-          </Card>
-        </div>
+      <Container className="mt-2 d-flex align-items-center">
+        <Card className="cardBody me-3" style={{ width: '25rem', height: '25rem' }}>
+          <Card.Title>Olá!</Card.Title>
+          <Card.Text>
+            Breve texto de apresentação.
+          </Card.Text>
+          <div className="mt-auto text-center">
+            <Button className="buttonSaibaMais" href="#sobre">
+              Saiba mais
+            </Button>
+          </div>
+        </Card>
+        <img
+          src={minhaImagem}
+          alt="Descrição da Imagem" 
+          className="img-fluid"
+          style={{ maxWidth: '25rem', height: 'auto' }}
+        />
       </Container>
-    </div>
     </div>
   );
 }
