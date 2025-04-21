@@ -60,6 +60,7 @@ body {
   background-color: transparent;
   border: 2px solid var(--button-color);
   color: var(--primary-color);
+  margin: 15px;
 }
 
 .buttons-cards-inferiores:hover {

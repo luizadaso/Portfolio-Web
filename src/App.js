@@ -37,7 +37,20 @@ function App() {
       </Container>
       <Container className="mt-2 d-flex justify-content-center align-items-center container-cards-inferiores">
       <Card className="cards-inferiores me-3  align-items-center">
-      <Card.Header>Header</Card.Header>
+      <Card.Header>Linkedin</Card.Header>
+          <Card.Text>
+          <iframe 
+            src="https://www.linkedin.com/embed/feed/update/urn:li:share:7310997092972269568?collapsed=1" 
+            height="480" 
+            width="300" 
+            frameborder="0" 
+            allowfullscreen="" 
+            title="Publicação incorporada">
+          </iframe>
+          </Card.Text>
+        </Card>
+        <Card className="cards-inferiores me-3  align-items-center">
+      <Card.Header>Github</Card.Header>
           <Card.Text>
             Breve texto de apresentação.
           </Card.Text>
@@ -48,18 +61,7 @@ function App() {
           </div>
         </Card>
         <Card className="cards-inferiores me-3  align-items-center">
-      <Card.Header>Header</Card.Header>
-          <Card.Text>
-            Breve texto de apresentação.
-          </Card.Text>
-          <div className="mt-auto text-center">
-            <Button className="buttons-cards-inferiores" href="#sobre">
-              Acesse
-            </Button>
-          </div>
-        </Card>
-        <Card className="cards-inferiores me-3  align-items-center">
-      <Card.Header>Header</Card.Header>
+      <Card.Header>YouTube</Card.Header>
           <Card.Text>
             Breve texto de apresentação.
           </Card.Text>
