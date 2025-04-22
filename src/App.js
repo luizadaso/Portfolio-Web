@@ -14,11 +14,13 @@ function App() {
             <Nav.Link href="#sobre">Sobre mim</Nav.Link>
             <Nav.Link href="#projetos">Projetos</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
-            <Nav.Link className="linkCV">
-        <a href="https://drive.google.com/file/d/1M30CI7YM901dBv9tYCD2_G7fpyzfDMdG/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-          Baixar CV
-        </a>
-        </Nav.Link>
+            <Nav.Link 
+              href="https://drive.google.com/file/d/1M30CI7YM901dBv9tYCD2_G7fpyzfDMdG/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Baixar CV
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
