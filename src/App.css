@@ -7,6 +7,10 @@
   --button-color: #852c80;
 }
 
+.barraSuperior {
+  background: linear-gradient(to left, #030e4d, #730677);
+}
+
 .nav-link {
   color: var(--text-color);
 }
@@ -15,20 +19,26 @@
   color: var(--tertiary-color);
 }
 body {
-  background: linear-gradient(to left, #380836, #9b459e);
+  background: var(--primary-color);
   margin: 0px;
 }
 
 .container-body {
+  border: 2px solid var(--tertiary-color);
+  border-radius: 20px;
+  margin-top: 20px;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 .cardBody {
+  width: 50rem;
+  height: 15rem;
   background-color: transparent;
-  border: 2px solid var(--tertiary-color);
+  border: transparent;
   color: var(--text-color);
-  padding: 40px;
-  margin-top: 20px;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 .buttonSaibaMais {
@@ -39,12 +49,12 @@ body {
 
 .buttonSaibaMais:hover {
   background-color: var(--tertiary-color);
-  border: 2px solid var(--text-color);
+  border: 2px solid var(--primary-color);
 }
 
 .foto-tech {
   width: 30%;
-  margin-left: 15vh;
+  margin: 5vh;
 }
 
 .cards-inferiores {
@@ -67,4 +77,39 @@ body {
   background-color: var(--button-color);
   border: 2px solid var(--button-color);
   color: var(--text-color);
+}
+
+@media (max-width: 600px) {
+  .container-body {
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+  
+  .cardBody {
+    width: 100rem;
+    height: 10rem;
+    padding: 20px;
+    margin-top: 15px;
+  }
+  
+  .foto-tech {
+    width: 45%;
+    margin: 2vh;
+  }
+  
+  .cards-inferiores {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    width: 20rem;
+    height: 35rem;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons-cards-inferiores {
+    background-color: transparent;
+    border: 2px solid var(--button-color);
+    color: var(--primary-color);
+    margin: 15px;
+  }
 }
