@@ -38,6 +38,9 @@ function App() {
             </div>
           </Card.Title>
           <Card.Text>
+          Desenvolvedora Full-stack
+          </Card.Text>
+          <Card.Text className="d-none d-md-block">
           Desde a infância, a tecnologia sempre foi uma paixão que me impulsionou a explorar e aprender. 
           Comecei minha jornada profissional em suporte técnico, onde desenvolvi habilidades valiosas. 
           Recentemente, decidi dar um passo adiante, iniciando minha graduação em Ciência da Computação. 
@@ -55,7 +58,7 @@ function App() {
             className="img-fluid foto-tech"
           />
       </Container>
-      <div className="iconesRedes d-flex justify-content-center align-items-center">
+      <div className="iconesRedes d-flex flex-column flex-md-row justify-content-center align-items-center">
       <a href="https://www.linkedin.com/in/luizadaso/" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
       </a>
