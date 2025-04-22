@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav, Card, Button } from 'react-bootstrap';
 import minhaImagem from './assets/Foto-Tech.png';
+import pontoDeLuzImg from './assets/Ponto-de-luz.png';
 
 function App() {
   return (
@@ -19,24 +20,33 @@ function App() {
       <br />
       <Container className="mt-2 d-flex justify-content-center align-items-center container-body">
         <Card className="cardBody me-3">
-          <Card.Title>Olá! Sejam bem-vindos!</Card.Title>
+          <Card.Title>  
+            <div className="meuNome mt-auto text-start">
+            <span>Ana Luiza Oliveira</span>
+            <img
+              src={pontoDeLuzImg}
+              alt="ponto de luz dourado" 
+              className="img-fluid ponto-de-luz ms-1"
+            />
+            </div>
+          </Card.Title>
           <Card.Text>
           Desde a infância, a tecnologia sempre foi uma paixão que me impulsionou a explorar e aprender. 
           Comecei minha jornada profissional em suporte técnico, onde desenvolvi habilidades valiosas. 
           Recentemente, decidi dar um passo adiante, iniciando minha graduação em Ciência da Computação. 
           Essa decisão reacendeu meu entusiasmo e estou mergulhada no mundo da programação! 
           </Card.Text>
-          <div className="mt-auto text-center">
+          <div className="mt-auto text-start">
             <Button className="buttonSaibaMais" href="#sobre">
               Saiba mais
             </Button>
           </div>
         </Card>
-        <img
-          src={minhaImagem}
-          alt="Descrição da Imagem" 
-          className="img-fluid foto-tech"
-        />
+          <img
+            src={minhaImagem}
+            alt="Descrição da Imagem" 
+            className="img-fluid foto-tech"
+          />
       </Container>
       <div className="iconesRedes d-flex justify-content-center align-items-center">
       <a href="https://www.linkedin.com/in/luizadaso/" target="_blank" rel="noopener noreferrer">

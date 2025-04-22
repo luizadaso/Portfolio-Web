@@ -24,21 +24,28 @@ body {
 }
 
 .container-body {
+  height: 27rem;
   border: 2px solid var(--tertiary-color);
   border-radius: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 20px;
+}
+
+.meuNome {
+  font-family: "Courgette", cursive;
+  color: var(--text-color);
+  font-size: 5vh;
 }
 
 .cardBody {
-  width: 50rem;
+  width: 40rem;
   height: 15rem;
   background-color: transparent;
   border: transparent;
   color: var(--text-color);
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .buttonSaibaMais {
@@ -54,7 +61,11 @@ body {
 
 .foto-tech {
   width: 30%;
-  margin: 5vh;
+  margin-left: 30px;
+}
+
+.ponto-de-luz{
+  width: 40px;
 }
 
 .iconesRedes {
