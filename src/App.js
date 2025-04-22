@@ -38,7 +38,7 @@ function App() {
           className="img-fluid foto-tech"
         />
       </Container>
-      <div className="d-flex justify-content-center align-items-center">
+      <div className="iconesRedes d-flex justify-content-center align-items-center">
       <a href="https://www.linkedin.com/in/luizadaso/" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px" alt="LinkedIn" />
       </a>
@@ -58,7 +58,7 @@ function App() {
           <Card.Text>
           <iframe 
             src="https://www.linkedin.com/embed/feed/update/urn:li:share:7310997092972269568?collapsed=1" 
-            height="480" 
+            height="420" 
             width="300" 
             frameborder="0" 
             allowfullscreen="" 
@@ -89,6 +89,9 @@ function App() {
           </div>
         </Card>
         </Container>
+        <footer className="rodape bg-dark text-white text-center py-3">
+          Desenvolvido por @luizadaso
+        </footer>
     </div>
   );
 }

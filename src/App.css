@@ -57,11 +57,16 @@ body {
   margin: 5vh;
 }
 
+.iconesRedes {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
 .cards-inferiores {
   background-color: var(--background-color);
   color: var(--primary-color);
   width: 20rem;
-  height: 35rem;
+  height: 30rem;
   margin: 20px;
   margin-bottom: 30px;
 }
@@ -77,6 +82,11 @@ body {
   background-color: var(--button-color);
   border: 2px solid var(--button-color);
   color: var(--text-color);
+}
+
+.rodape {
+  background: linear-gradient(to left, #030e4d, #730677);
+  padding: 0;
 }
 
 @media (max-width: 600px) {
