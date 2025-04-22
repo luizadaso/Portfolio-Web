@@ -10,8 +10,8 @@ function App() {
       <Navbar className="barraSuperior" bg="dark" data-bs-theme="dark">
         <Container className="justify-content-center">
           <Nav className="mx-auto">
-            <Nav.Link href="#inicio">Página inicial</Nav.Link>
-            <Nav.Link href="#sobre">Sobre mim</Nav.Link>
+            <Nav.Link href="#pagina-inicial">Página inicial</Nav.Link>
+            <Nav.Link href="#sobre-mim">Sobre mim</Nav.Link>
             <Nav.Link href="#projetos">Projetos</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
             <Nav.Link 
@@ -57,57 +57,22 @@ function App() {
       </Container>
       <div className="iconesRedes d-flex justify-content-center align-items-center">
       <a href="https://www.linkedin.com/in/luizadaso/" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px" alt="LinkedIn" />
+        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
       </a>
       <a href="mailto:analuiza.daso@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25px" alt="Gmail" />
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
       </a>
       <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontramos+o+seu+curriculo.+Podemos+conversar?" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="25px" alt="WhatsApp" />
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
       </a>
       <a href="https://instagram.com/luizadaso/" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25px" alt="Instagram" />
+        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
       </a>
     </div>
-      <Container className="mt-2 d-flex justify-content-center align-items-center container-cards-inferiores">
-      <Card className="cards-inferiores me-3  align-items-center">
-      <Card.Header>Linkedin</Card.Header>
-          <Card.Text>
-          <iframe 
-            src="https://www.linkedin.com/embed/feed/update/urn:li:share:7310997092972269568?collapsed=1" 
-            height="420" 
-            width="300" 
-            frameborder="0" 
-            allowfullscreen="" 
-            title="Publicação incorporada">
-          </iframe>
-          </Card.Text>
-        </Card>
-        <Card className="cards-inferiores me-3  align-items-center">
-      <Card.Header>Github</Card.Header>
-          <Card.Text>
-            Breve texto de apresentação.
-          </Card.Text>
-          <div className="mt-auto text-center">
-            <Button className="buttons-cards-inferiores" href="#sobre">
-              Acesse
-            </Button>
-          </div>
-        </Card>
-        <Card className="cards-inferiores me-3  align-items-center">
-      <Card.Header>YouTube</Card.Header>
-          <Card.Text>
-            Breve texto de apresentação.
-          </Card.Text>
-          <div className="mt-auto text-center">
-            <Button className="buttons-cards-inferiores" href="#sobre">
-              Acesse
-            </Button>
-          </div>
-        </Card>
-        </Container>
         <footer className="rodape bg-dark text-white text-center py-3">
-          Desenvolvido por @luizadaso
+        <Container>
+        <span>Desenvolvido por @luizadaso</span>
+      </Container>
         </footer>
     </div>
   );

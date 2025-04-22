@@ -24,7 +24,8 @@ body {
 }
 
 .container-body {
-  height: 27rem;
+  width: 100%;
+  height: 100%;
   border: 2px solid var(--tertiary-color);
   border-radius: 20px;
   margin-top: 20px;
@@ -39,8 +40,8 @@ body {
 }
 
 .cardBody {
-  width: 40rem;
-  height: 15rem;
+  width: 100%;
+  height: 100%;
   background-color: transparent;
   border: transparent;
   color: var(--text-color);
@@ -69,8 +70,9 @@ body {
 }
 
 .iconesRedes {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .cards-inferiores {
@@ -97,6 +99,9 @@ body {
 
 .rodape {
   background: linear-gradient(to left, #030e4d, #730677);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding: 0;
 }
 
@@ -114,7 +119,7 @@ body {
   }
   
   .foto-tech {
-    width: 45%;
+    width: 40%;
     margin: 2vh;
   }
   
