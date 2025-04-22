@@ -6,11 +6,11 @@ import minhaImagem from './assets/Foto-Tech.png';
 function App() {
   return (
     <div>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar className="barraSuperior" bg="dark" data-bs-theme="dark">
         <Container className="justify-content-center">
           <Nav className="mx-auto">
             <Nav.Link href="#inicio">Página inicial</Nav.Link>
-            <Nav.Link href="#sobre">Sobre</Nav.Link>
+            <Nav.Link href="#sobre">Sobre mim</Nav.Link>
             <Nav.Link href="#projetos">Projetos</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
           </Nav>
@@ -18,10 +18,13 @@ function App() {
       </Navbar>
       <br />
       <Container className="mt-2 d-flex justify-content-center align-items-center container-body">
-        <Card className="cardBody me-3" style={{ width: '50rem', height: '30rem' }}>
-          <Card.Title>Olá!</Card.Title>
+        <Card className="cardBody me-3">
+          <Card.Title>Olá! Sejam bem-vindos!</Card.Title>
           <Card.Text>
-            Breve texto de apresentação.
+          Desde a infância, a tecnologia sempre foi uma paixão que me impulsionou a explorar e aprender. 
+          Comecei minha jornada profissional em suporte técnico, onde desenvolvi habilidades valiosas. 
+          Recentemente, decidi dar um passo adiante, iniciando minha graduação em Ciência da Computação. 
+          Essa decisão reacendeu meu entusiasmo e estou mergulhada no mundo da programação! 
           </Card.Text>
           <div className="mt-auto text-center">
             <Button className="buttonSaibaMais" href="#sobre">
@@ -35,6 +38,20 @@ function App() {
           className="img-fluid foto-tech"
         />
       </Container>
+      <div className="d-flex justify-content-center align-items-center">
+      <a href="https://www.linkedin.com/in/luizadaso/" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25px" alt="LinkedIn" />
+      </a>
+      <a href="mailto:analuiza.daso@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25px" alt="Gmail" />
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontramos+o+seu+curriculo.+Podemos+conversar?" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="25px" alt="WhatsApp" />
+      </a>
+      <a href="https://instagram.com/luizadaso/" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25px" alt="Instagram" />
+      </a>
+    </div>
       <Container className="mt-2 d-flex justify-content-center align-items-center container-cards-inferiores">
       <Card className="cards-inferiores me-3  align-items-center">
       <Card.Header>Linkedin</Card.Header>
