@@ -18,24 +18,23 @@ function App() {
             <Nav.Link href="#pagina-inicial">Página inicial</Nav.Link>
             <Nav.Link href="#sobre-mim">Sobre mim</Nav.Link>
             <Nav.Link href="#projetos">Projetos</Nav.Link>
-            <Nav.Link href="#contato">Contato</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
       <br />
-      <Container className="mt-2 d-flex justify-content-center align-items-center container-body">
-        <Card className="cardBody me-3">
+      <Container className="mt-2 d-flex justify-content-center align-items-center container-body flex-column flex-md-row">
+        <Card className="cardBody me-3 order-2 order-md-1 text-center text-md-start">
           <Card.Title>  
-            <div className="meuNome mt-auto text-start">
+            <div className="meuNome mt-auto text-center text-md-start">
             <span>Ana Luiza Oliveira</span>
             <img
               src={pontoDeLuzImg}
               alt="ponto de luz dourado" 
-              className="img-fluid ponto-de-luz ms-1"
+              className="img-fluid ponto-de-luz ms-1 text-center text-md-start"
             />
             </div>
           </Card.Title>
-          <Card.Text>
+          <Card.Text className="Frase-cargo">
           Desenvolvedora Full-stack
           </Card.Text>
           <Card.Text className="d-none d-md-block">
@@ -44,7 +43,7 @@ function App() {
           Recentemente, decidi dar um passo adiante, iniciando minha graduação em Ciência da Computação. 
           Essa decisão reacendeu meu entusiasmo e estou mergulhada no mundo da programação! 
           </Card.Text>
-          <div className="mt-auto text-start">
+          <div className="mt-auto text-center text-md-start">
           <Button className="buttonBaixarCV" href={CV} download="CV - Ana Luiza Da Silva Oliveira.pdf">
               Baixar CV
             </Button>
@@ -53,7 +52,7 @@ function App() {
           <img
             src={minhaImagem}
             alt="Descrição da Imagem" 
-            className="img-fluid foto-tech"
+            className="img-fluid foto-tech order-1 order-md-2"
           />
       </Container>
       <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">

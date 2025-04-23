@@ -71,7 +71,7 @@ body {
 }
 
 .ponto-de-luz{
-  width: 40px;
+  width: 45px;
 }
 
 .iconesRedes {
@@ -111,23 +111,27 @@ body {
   }
 
   .meuNome {
-    font-size: 35px;
+    font-size: 32px;
+  }
+
+  .Frase-cargo {
+    font-size: 17px;
   }
   
   .cardBody {
     width: 100%;
-    height: 120%;
-    padding: 20px;
+    padding: 15px;
     margin-top: 15px;
   }
   
   .foto-tech {
-    width: 28%;
-    margin: 2vh;
+    width: 40%;
+    margin: 1vh;
   }
 
   .iconesRedes {
     flex-direction: row;
+    align-self: start;
     margin-top: 10px;
     margin-bottom: 20px;
   }
