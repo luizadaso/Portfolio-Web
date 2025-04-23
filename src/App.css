@@ -71,8 +71,7 @@ body {
 
 .iconesRedes {
   height: 100%;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .cards-inferiores {
