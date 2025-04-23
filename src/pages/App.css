@@ -1,0 +1,36 @@
+/* App.css */
+:root {
+    --primary-color: #282c34;
+    --secundary-color: #383a3de1;
+    --tertiary-color: #f15a29;
+    --background-color: #f1d6f7b9;
+    --text-color: #ffffff;
+    --button-color: #852c80;
+  }
+  
+  .barraSuperior {
+    background: linear-gradient(to left, #030e4d, #730677);
+  }
+  
+  .nav-link {
+    color: var(--text-color);
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--tertiary-color);
+    transform: scale(1.1);
+  }
+  
+  body {
+    background: var(--primary-color);
+    margin: 0px;
+  }
+  
+  .rodape {
+    background: linear-gradient(to left, #030e4d, #730677);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+  }
