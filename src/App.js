@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import SobreMim from './pages/SobreMim';
 import PaginaInicial from './pages/PaginaInicial';
+import Projetos from './pages/Projetos'; // Importe a página Projetos
 import mail from './assets/mail.svg';
 import github from './assets/github.svg';
 import linkedin from './assets/linkedin.svg';
@@ -26,13 +27,10 @@ function App() {
         <Routes>
           <Route path="/" element={<PaginaInicial />} />
           <Route path="/sobre-mim" element={<SobreMim />} />
+          <Route path="/projetos" element={<Projetos />} /> {/* Adicione a rota para Projetos */}
         </Routes>
         <SocialIcons />
-        <footer className="rodape bg-dark text-white text-center py-3">
-          <Container>
-            <span>Desenvolvido por @luizadaso</span>
-          </Container>
-        </footer>
+        <ConditionalFooter />
       </div>
     </Router>
   );
@@ -82,6 +80,23 @@ function SocialIcons() {
         </a>
       </div>
     </div>
+  );
+}
+
+function ConditionalFooter() {
+  const location = useLocation();
+  const hideFooterPaths = ['/sobre-mim', '/projetos'];
+
+  if (hideFooterPaths.includes(location.pathname)) {
+    return null;
+  }
+
+  return (
+    <footer className="rodape bg-dark text-white text-center py-3">
+      <Container>
+        <span>Desenvolvido por @luizadaso</span>
+      </Container>
+    </footer>
   );
 }
 

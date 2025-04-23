@@ -44,10 +44,10 @@ function SobreMim() {
             novo universo de infinitas possibilidades gera uma sensação de grandeza e motivação que nunca experimentei 
             antes. É incrível ter várias ideias e concretizá-las. Continuo criando projetos pessoais e enfrentando
             desafios. A longa curva de aprendizado é maravilhosa, pois percebo que nunca haverá um ponto final. 
-            <br /> Esta área é para a vida toda, sempre haverá algo novo e incrível para aprender.
+            <br /> Esta área é para a vida toda, sempre haverá algo novo e incrível para aprender. <br /><br />
+            Ana Luiza Oliveira
             </Card.Text>
           </Card.Body>
-
       </Card>
     </Container>
   );
