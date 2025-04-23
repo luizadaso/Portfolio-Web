@@ -1,107 +1,86 @@
 import React from 'react';
 import './App.css';
-import { Container, Navbar, Nav, Card, Button } from 'react-bootstrap';
-import minhaImagem from './assets/Foto-Tech.png';
-import pontoDeLuzImg from './assets/Ponto-de-luz.png';
+import { Container, Navbar, Nav } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import SobreMim from './pages/SobreMim';
+import PaginaInicial from './pages/PaginaInicial';
 import mail from './assets/mail.svg';
 import github from './assets/github.svg';
 import linkedin from './assets/linkedin.svg';
 import telefone from './assets/phone.svg';
-import CV from './assets/CV - Ana Luiza Da Silva Oliveira.pdf';
 
 function App() {
   return (
-    <div>
-      <Navbar className="barraSuperior" bg="dark" data-bs-theme="dark">
-        <Container className="justify-content-center">
-          <Nav className="mx-auto">
-            <Nav.Link href="#pagina-inicial">Página inicial</Nav.Link>
-            <Nav.Link href="#sobre-mim">Sobre mim</Nav.Link>
-            <Nav.Link href="#projetos">Projetos</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-      <br />
-      <Container className="mt-2 d-flex justify-content-center align-items-center container-body flex-column flex-md-row">
-        <Card className="cardBody me-3 order-2 order-md-1 text-center text-md-start">
-          <Card.Title>  
-            <div className="meuNome mt-auto text-center text-md-start">
-            <span>Ana Luiza Oliveira</span>
-            <img
-              src={pontoDeLuzImg}
-              alt="ponto de luz dourado" 
-              className="img-fluid ponto-de-luz ms-1 text-center text-md-start"
-            />
-            </div>
-          </Card.Title>
-          <Card.Text className="Frase-cargo">
-          Desenvolvedora Full-stack
-          </Card.Text>
-          <Card.Text className="d-none d-md-block">
-          Desde a infância, a tecnologia sempre foi uma paixão que me impulsionou a explorar e aprender. 
-          Comecei minha jornada profissional em suporte técnico, onde desenvolvi habilidades valiosas. 
-          Recentemente, decidi dar um passo adiante, iniciando minha graduação em Ciência da Computação. 
-          Essa decisão reacendeu meu entusiasmo e estou mergulhada no mundo da programação! 
-          </Card.Text>
-          <div className="mt-auto text-center text-md-start">
-          <Button className="buttonBaixarCV" href={CV} download="CV - Ana Luiza Da Silva Oliveira.pdf">
-              Baixar CV
-            </Button>
-          </div>
-        </Card>
+    <Router>
+      <div>
+        <Navbar className="barraSuperior" bg="dark" data-bs-theme="dark">
+          <Container className="justify-content-center">
+            <Nav className="mx-auto">
+              <Nav.Link as={Link} to="/">Página inicial</Nav.Link>
+              <Nav.Link as={Link} to="/sobre-mim">Sobre mim</Nav.Link>
+              <Nav.Link as={Link} to="/projetos">Projetos</Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
+        <br />
+        <Routes>
+          <Route path="/" element={<PaginaInicial />} />
+          <Route path="/sobre-mim" element={<SobreMim />} />
+        </Routes>
+        <SocialIcons />
+        <footer className="rodape bg-dark text-white text-center py-3">
+          <Container>
+            <span>Desenvolvido por @luizadaso</span>
+          </Container>
+        </footer>
+      </div>
+    </Router>
+  );
+}
+
+function SocialIcons() {
+  return (
+    <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
+      <div className="iconesRedes">
+        <a href="https://www.linkedin.com/in/luizadaso/" className="no-underline" target="_blank" rel="noopener noreferrer">
           <img
-            src={minhaImagem}
-            alt="Descrição da Imagem" 
-            className="img-fluid foto-tech order-1 order-md-2"
+            src={linkedin}
+            alt="linkedin"
+            className="img-fluid linkedin-icon ms-1"
           />
-      </Container>
-      <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
-      <div className="iconesRedes">
-      <a href="https://www.linkedin.com/in/luizadaso/" className="no-underline" target="_blank" rel="noopener noreferrer">
-      <img
-          src={linkedin}
-          alt="linkedin" 
-          className="img-fluid linkedin-icon ms-1" 
-      />
-        <span className="titulos-icones ms-2 d-inline d-md-none">Meu perfil no Linkedin</span>
-      </a>
+          <span className="titulos-icones ms-2 d-inline d-md-none">Meu perfil no Linkedin</span>
+        </a>
       </div>
       <div className="iconesRedes">
-      <a href="mailto:analuiza.daso@gmail.com" className="no-underline">
-      <img
-          src={mail}
-          alt="e-mail" 
-          className="img-fluid email-icon ms-1" 
-      />
-      <span className="titulos-icones ms-2 d-inline d-md-none">analuiza.daso@gmail.com</span>
-      </a>
+        <a href="mailto:analuiza.daso@gmail.com" className="no-underline">
+          <img
+            src={mail}
+            alt="e-mail"
+            className="img-fluid email-icon ms-1"
+          />
+          <span className="titulos-icones ms-2 d-inline d-md-none">analuiza.daso@gmail.com</span>
+        </a>
       </div>
       <div className="iconesRedes">
-      <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontrei+o+seu+portfolio.+Podemos+conversar?" className="no-underline" target="_blank" rel="noopener noreferrer">
-      <img
-          src={telefone}
-          alt="telefone" 
-          className="img-fluid telefone-icon ms-1" 
-      />
-      <span className="titulos-icones ms-2 d-inline d-md-none">(22) 99995-5542</span>
-      </a>
+        <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontrei+o+seu+portfolio.+Podemos+conversar?" className="no-underline" target="_blank" rel="noopener noreferrer">
+          <img
+            src={telefone}
+            alt="telefone"
+            className="img-fluid telefone-icon ms-1"
+          />
+          <span className="titulos-icones ms-2 d-inline d-md-none">(22) 99995-5542</span>
+        </a>
       </div>
       <div className="iconesRedes">
         <a href="https://github.com/luizadaso" className="no-underline" target="_blank" rel="noopener noreferrer">
           <img
             src={github}
-            alt="github" 
-            className="img-fluid github-icon ms-1" 
+            alt="github"
+            className="img-fluid github-icon ms-1"
           />
           <span className="titulos-icones ms-2 d-inline d-md-none">Repositório no Github</span>
         </a>
       </div>
-    </div>
-        <footer className="rodape bg-dark text-white text-center py-3">
-        <Container>
-        <span>Desenvolvido por @luizadaso</span>
-      </Container>
-        </footer>
     </div>
   );
 }
