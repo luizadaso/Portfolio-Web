@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import 'src/App.css';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import SobreMim from './pages/SobreMim';
