@@ -10,7 +10,7 @@ function Projetos() {
   return (
     <Container className="mt-2 d-flex justify-content-center align-items-center container-cards-inferiores">
       <Card className="cards-inferiores me-3 align-items-center">
-        <Card.Header>Amigo Secreto</Card.Header>
+        <Card.Header><h2>Amigo Secreto</h2></Card.Header>
         <Card.Text>
             Sorteador de Amigo Secreto com gerador de QR Code.
         </Card.Text>
@@ -28,7 +28,7 @@ function Projetos() {
         </div>
       </Card>
       <Card className="cards-inferiores me-3 align-items-center">
-        <Card.Header>Pokédex</Card.Header>
+        <Card.Header><h2>Pokédex</h2></Card.Header>
         <Card.Text>
             Busque e visualizze informações detalhadas sobre os Pokémons.
         </Card.Text>
@@ -46,7 +46,7 @@ function Projetos() {
         </div>
       </Card>
       <Card className="cards-inferiores me-3 align-items-center">
-        <Card.Header>Página de Login</Card.Header>
+        <Card.Header><h2>Tele de Lo</h2></Card.Header>
         <Card.Text>
             Página de login com validação dos campos de e-mail e senha.
         </Card.Text>
