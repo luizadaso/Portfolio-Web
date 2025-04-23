@@ -45,7 +45,7 @@ function App() {
           Essa decisão reacendeu meu entusiasmo e estou mergulhada no mundo da programação! 
           </Card.Text>
           <div className="mt-auto text-start">
-          <Button className="buttonSaibaMais" href={CV} download="CV - Ana Luiza Da Silva Oliveira.pdf">
+          <Button className="buttonBaixarCV" href={CV} download="CV - Ana Luiza Da Silva Oliveira.pdf">
               Baixar CV
             </Button>
           </div>
@@ -62,7 +62,7 @@ function App() {
       <img
           src={linkedin}
           alt="linkedin" 
-          className="img-fluid ponto-de-luz ms-1" 
+          className="img-fluid linkedin-icon ms-1" 
       />
       </a>
       </div>
@@ -71,7 +71,7 @@ function App() {
       <img
           src={mail}
           alt="e-mail" 
-          className="img-fluid ponto-de-luz ms-1" 
+          className="img-fluid email-icon ms-1" 
       />
       </a>
       </div>
@@ -80,7 +80,7 @@ function App() {
       <img
           src={telefone}
           alt="telefone" 
-          className="img-fluid ponto-de-luz ms-1" 
+          className="img-fluid telefone-icon ms-1" 
       />
       </a>
       </div>
@@ -89,7 +89,7 @@ function App() {
           <img
             src={github}
             alt="github" 
-            className="img-fluid ponto-de-luz ms-1" 
+            className="img-fluid github-icon ms-1" 
           />
         </a>
       </div>

@@ -9,14 +9,17 @@
 
 .barraSuperior {
   background: linear-gradient(to left, #030e4d, #730677);
+
 }
 
 .nav-link {
   color: var(--text-color);
+  transition: transform 0.3s ease;
 }
 
 .nav-link:hover {
   color: var(--tertiary-color);
+  transform: scale(1.1);
 }
 body {
   background: var(--primary-color);
@@ -29,7 +32,7 @@ body {
   border: 2px solid var(--tertiary-color);
   border-radius: 20px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 20px;
 }
 
@@ -49,14 +52,16 @@ body {
   margin-top: 0px;
 }
 
-.buttonSaibaMais {
+.buttonBaixarCV {
   background-color: transparent;
+  transition: transform 0.4s ease;
   border: 2px solid var(--tertiary-color);
   color: var(--text-color);
 }
 
-.buttonSaibaMais:hover {
+.buttonBaixarCV:hover {
   background-color: var(--tertiary-color);
+  transform: scale(1.2);
   border: 2px solid var(--primary-color);
 }
 
@@ -70,9 +75,16 @@ body {
 }
 
 .iconesRedes {
-  height: 100%;
+  background-color: var(--secundary-color);
+  border-radius: 40px;
+  transition: transform 0.3s ease;
+  margin: 12px;
   padding: 10px;
 }
+
+.iconesRedes:hover {
+  transform: scale(1.4);
+}  
 
 .cards-inferiores {
   background-color: var(--background-color);
