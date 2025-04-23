@@ -1,0 +1,20 @@
+.container-cards-inferiores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .cards-inferiores {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    width: 20rem;
+    height: 30rem;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons-cards-inferiores {
+    margin-top: 10px;
+  }
