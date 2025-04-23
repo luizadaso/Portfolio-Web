@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import SobreMim from './pages/SobreMim';
 import PaginaInicial from './pages/PaginaInicial';
-import Projetos from './pages/Projetos'; // Importe a página Projetos
+import Projetos from './pages/Projetos';
 import mail from './assets/mail.svg';
 import github from './assets/github.svg';
 import linkedin from './assets/linkedin.svg';
