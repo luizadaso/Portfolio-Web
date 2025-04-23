@@ -3,6 +3,11 @@ import './App.css';
 import { Container, Navbar, Nav, Card, Button } from 'react-bootstrap';
 import minhaImagem from './assets/Foto-Tech.png';
 import pontoDeLuzImg from './assets/Ponto-de-luz.png';
+import mail from './assets/mail.svg';
+import github from './assets/github.svg';
+import linkedin from './assets/linkedin.svg';
+import telefone from './assets/phone.svg';
+import CV from './assets/CV - Ana Luiza Da Silva Oliveira.pdf';
 
 function App() {
   return (
@@ -14,13 +19,6 @@ function App() {
             <Nav.Link href="#sobre-mim">Sobre mim</Nav.Link>
             <Nav.Link href="#projetos">Projetos</Nav.Link>
             <Nav.Link href="#contato">Contato</Nav.Link>
-            <Nav.Link 
-              href="https://drive.google.com/file/d/1M30CI7YM901dBv9tYCD2_G7fpyzfDMdG/view?usp=sharing" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Baixar CV
-            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
@@ -47,8 +45,8 @@ function App() {
           Essa decisão reacendeu meu entusiasmo e estou mergulhada no mundo da programação! 
           </Card.Text>
           <div className="mt-auto text-start">
-            <Button className="buttonSaibaMais" href="#sobre">
-              Saiba mais
+          <Button className="buttonSaibaMais" href={CV} download="CV - Ana Luiza Da Silva Oliveira.pdf">
+              Baixar CV
             </Button>
           </div>
         </Card>
@@ -58,19 +56,43 @@ function App() {
             className="img-fluid foto-tech"
           />
       </Container>
-      <div className="iconesRedes d-flex flex-column flex-md-row justify-content-center align-items-center">
+      <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
+      <div className="iconesRedes">
       <a href="https://www.linkedin.com/in/luizadaso/" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img
+          src={linkedin}
+          alt="linkedin" 
+          className="img-fluid ponto-de-luz ms-1" 
+      />
       </a>
+      </div>
+      <div className="iconesRedes">
       <a href="mailto:analuiza.daso@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+      <img
+          src={mail}
+          alt="e-mail" 
+          className="img-fluid ponto-de-luz ms-1" 
+      />
       </a>
+      </div>
+      <div className="iconesRedes">
       <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontramos+o+seu+curriculo.+Podemos+conversar?" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+      <img
+          src={telefone}
+          alt="telefone" 
+          className="img-fluid ponto-de-luz ms-1" 
+      />
       </a>
-      <a href="https://instagram.com/luizadaso/" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-      </a>
+      </div>
+      <div className="iconesRedes">
+        <a href="https://github.com/luizadaso" target="_blank" rel="noopener noreferrer">
+          <img
+            src={github}
+            alt="github" 
+            className="img-fluid ponto-de-luz ms-1" 
+          />
+        </a>
+      </div>
     </div>
         <footer className="rodape bg-dark text-white text-center py-3">
         <Container>
