@@ -57,39 +57,43 @@ function App() {
       </Container>
       <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
       <div className="iconesRedes">
-      <a href="https://www.linkedin.com/in/luizadaso/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/luizadaso/" className="no-underline" target="_blank" rel="noopener noreferrer">
       <img
           src={linkedin}
           alt="linkedin" 
           className="img-fluid linkedin-icon ms-1" 
       />
+        <span className="titulos-icones ms-2 d-inline d-md-none">Meu perfil no Linkedin</span>
       </a>
       </div>
       <div className="iconesRedes">
-      <a href="mailto:analuiza.daso@gmail.com">
+      <a href="mailto:analuiza.daso@gmail.com" className="no-underline">
       <img
           src={mail}
           alt="e-mail" 
           className="img-fluid email-icon ms-1" 
       />
+      <span className="titulos-icones ms-2 d-inline d-md-none">analuiza.daso@gmail.com</span>
       </a>
       </div>
       <div className="iconesRedes">
-      <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontramos+o+seu+curriculo.+Podemos+conversar?" target="_blank" rel="noopener noreferrer">
+      <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontrei+o+seu+portfolio.+Podemos+conversar?" className="no-underline" target="_blank" rel="noopener noreferrer">
       <img
           src={telefone}
           alt="telefone" 
           className="img-fluid telefone-icon ms-1" 
       />
+      <span className="titulos-icones ms-2 d-inline d-md-none">(22) 99995-5542</span>
       </a>
       </div>
       <div className="iconesRedes">
-        <a href="https://github.com/luizadaso" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/luizadaso" className="no-underline" target="_blank" rel="noopener noreferrer">
           <img
             src={github}
             alt="github" 
             className="img-fluid github-icon ms-1" 
           />
+          <span className="titulos-icones ms-2 d-inline d-md-none">Repositório no Github</span>
         </a>
       </div>
     </div>

@@ -130,9 +130,16 @@ body {
   }
 
   .iconesRedes {
+    width: 95%;
     flex-direction: row;
-    align-self: start;
+    align-self: center;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+  .titulos-icones {
+    color: var(--text-color);
+  }
+  .no-underline {
+    text-decoration: none !important;
   }
 }
