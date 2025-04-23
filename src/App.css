@@ -1,3 +1,4 @@
+/* App.css */
 :root {
   --primary-color: #282c34;
   --secundary-color: #383a3de1;
@@ -9,7 +10,6 @@
 
 .barraSuperior {
   background: linear-gradient(to left, #030e4d, #730677);
-
 }
 
 .nav-link {
@@ -21,9 +21,18 @@
   color: var(--tertiary-color);
   transform: scale(1.1);
 }
+
 body {
   background: var(--primary-color);
   margin: 0px;
+}
+
+.rodape {
+  background: linear-gradient(to left, #030e4d, #730677);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
 }
 
 .container-body {
@@ -36,11 +45,6 @@ body {
   padding: 20px;
 }
 
-.meuNome {
-  font-family: "Courgette", cursive;
-  color: var(--text-color);
-  font-size: 5vh;
-}
 
 .cardBody {
   width: 100%;
@@ -65,15 +69,6 @@ body {
   border: 2px solid var(--primary-color);
 }
 
-.foto-tech {
-  width: 30%;
-  margin-left: 30px;
-}
-
-.ponto-de-luz{
-  width: 45px;
-}
-
 .iconesRedes {
   background-color: var(--secundary-color);
   border-radius: 40px;
@@ -85,23 +80,6 @@ body {
 .iconesRedes:hover {
   transform: scale(1.4);
 }  
-
-.cards-inferiores {
-  background-color: var(--background-color);
-  color: var(--primary-color);
-  width: 20rem;
-  height: 30rem;
-  margin: 20px;
-  margin-bottom: 30px;
-}
-
-.rodape {
-  background: linear-gradient(to left, #030e4d, #730677);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 0;
-}
 
 @media (max-width: 600px) {
   .container-body {
@@ -136,9 +114,11 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
   }
+
   .titulos-icones {
     color: var(--text-color);
   }
+
   .no-underline {
     text-decoration: none !important;
   }

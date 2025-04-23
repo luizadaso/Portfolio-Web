@@ -49,13 +49,13 @@
   
   @media (max-width: 600px) {
     .container-body {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       height: 100%;
       padding: 0px;
     }
   
     .meuNome {
-      font-size: 32px;
+      font-size: 30px;
     }
   
     .Frase-cargo {
