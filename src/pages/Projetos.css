@@ -7,14 +7,26 @@
   }
   
   .cards-inferiores {
-    background-color: var(--background-color);
-    color: var(--primary-color);
-    width: 20rem;
-    height: 30rem;
-    margin: 20px;
-    margin-bottom: 30px;
+    width: 30vh;
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--tertiary-color);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
   }
   
   .buttons-cards-inferiores {
-    margin-top: 10px;
+    background-color: transparent;
+    transition: transform 0.4s ease;
+    border: 2px solid var(--tertiary-color);
+    color: var(--text-color);
+    margin: 10px;
+  }
+  
+  .buttons-cards-inferiores:hover {
+    background-color: var(--tertiary-color);
+    transform: scale(1.2);
+    border: 2px solid var(--primary-color);
   }
