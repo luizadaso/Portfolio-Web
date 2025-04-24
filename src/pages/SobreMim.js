@@ -3,8 +3,8 @@ import './SobreMim.css';
 
 function SobreMim() {
   return (
-    <Container className="mt-2 d-flex justify-content-center align-items-center container-body flex-column flex-md-row">
-      <Card className="cardBody me-3 order-2 order-md-1 text-center text-md-start">
+    <Container className="sobreMimContainer mt-0 d-flex justify-content-center align-items-center">
+      <Card className="cardBody-sobreMim mt-0 order-2 order-md-1 text-center justify-content-center align-items-center">
         <Card.Header>
           <h2>Minha história na tecnologia</h2>
         </Card.Header>
