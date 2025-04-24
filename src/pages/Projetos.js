@@ -46,7 +46,7 @@ function Projetos() {
         </div>
       </Card>
       <Card className="cards-inferiores me-3 align-items-center">
-        <Card.Header><h2>Tele de Lo</h2></Card.Header>
+        <Card.Header><h2>Tele de Login</h2></Card.Header>
         <Card.Text>
             Página de login com validação dos campos de e-mail e senha.
         </Card.Text>
