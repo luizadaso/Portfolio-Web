@@ -11,7 +11,7 @@ function PaginaInicial() {
       <Card className="cardBody me-3 order-2 order-md-1 text-center text-md-start">
         <Card.Title>
           <div className="meuNome mt-auto text-center text-md-start">
-            <span>Olá, eu sou<br />Ana Luiza Oliveira</span>
+            <span>Ana Luiza Oliveira</span>
             <img
               src={pontoDeLuzImg}
               alt="ponto de luz dourado"
