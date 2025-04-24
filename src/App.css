@@ -84,6 +84,10 @@ body {
     margin-top: 15px;
   }
 
+  .buttonBaixarCV:hover {
+    transform: none;
+  }
+
   .iconesRedes {
     width: 70%;
     flex-direction: row;
