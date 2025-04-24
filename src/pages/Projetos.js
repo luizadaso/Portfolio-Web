@@ -19,7 +19,7 @@ function Projetos() {
           <img
             src={amigoSecreto}
             alt="amigo-secreto"
-            className="img-fluid ms-1"
+            className="imagens-projetos img-fluid ms-1"
           />
         </a>
           <Button className="buttons-cards-inferiores" href="https://luizadaso.github.io/Projeto-Challenge-Amigo-Secreto/">
@@ -37,7 +37,7 @@ function Projetos() {
           <img
             src={pokedex}
             alt="pokedex"
-            className="img-fluid ms-1"
+            className="imagens-projetos img-fluid ms-1"
           />
         </a>
           <Button className="buttons-cards-inferiores" href="https://pokedex-da-ana.vercel.app/">
@@ -55,7 +55,7 @@ function Projetos() {
           <img
             src={telaLogin}
             alt="amigo-secreto"
-            className="img-fluid ms-1"
+            className="imagens-projetos img-fluid ms-1"
           />
         </a>
           <Button className="buttons-cards-inferiores" href="https://github.com/luizadaso/Tela-de-Login-e-Recuperacao-de-Senha">

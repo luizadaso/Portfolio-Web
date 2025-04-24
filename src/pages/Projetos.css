@@ -17,6 +17,10 @@
     margin-bottom: 15px;
     padding: 20px;
   }
+
+  .imagens-projetos {
+    width: 28vh;
+  }
   
   .buttons-cards-inferiores {
     background-color: transparent;
@@ -34,6 +38,7 @@
 
   @media (max-width: 600px) {
     .cards-inferiores {
-      width: 90%;
+      width: 100%;
     }
+
   }

@@ -23,6 +23,7 @@
 }
 
 body {
+  align-items: center;
   background: var(--primary-color);
   margin: 0px;
 }
