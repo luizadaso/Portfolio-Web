@@ -8,7 +8,7 @@ import telaLogin from '../img/tela-login.png';
 function Projetos() {
 
   return (
-    <Container className="mt-2 d-flex justify-content-center align-items-center container-cards-inferiores">
+    <Container className="mt-0 d-flex justify-content-center align-items-center container-cards-inferiores">
       <Card className="cards-inferiores me-3 align-items-center">
         <Card.Header><h2>Amigo Secreto</h2></Card.Header>
         <Card.Text>
@@ -30,7 +30,7 @@ function Projetos() {
       <Card className="cards-inferiores me-3 align-items-center">
         <Card.Header><h2>Pokédex</h2></Card.Header>
         <Card.Text>
-            Busque e visualizze informações detalhadas sobre os Pokémons.
+            Busque e visualize informações detalhadas sobre os Pokémons.
         </Card.Text>
         <div className="mt-auto text-center">
         <a href="https://pokedex-da-ana.vercel.app/" className="no-underline">
