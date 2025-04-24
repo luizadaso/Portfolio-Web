@@ -42,4 +42,8 @@
       width: 100%;
     }
 
+    .buttons-cards-inferiores:hover {
+      transform: none;
+    }
+
   }
