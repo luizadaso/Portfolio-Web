@@ -27,7 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PaginaInicial />} />
           <Route path="/sobre-mim" element={<SobreMim />} />
-          <Route path="/projetos" element={<Projetos />} /> {/* Adicione a rota para Projetos */}
+          <Route path="/projetos" element={<Projetos />} />
         </Routes>
         <SocialIcons />
         <ConditionalFooter />
@@ -92,7 +92,7 @@ function ConditionalFooter() {
   }
 
   return (
-    <footer className="rodape bg-dark text-white text-center py-3">
+    <footer className="rodape bg-dark text-white text-center py-3 d-none d-md-block">
       <Container>
         <span>Desenvolvido por @luizadaso</span>
       </Container>
