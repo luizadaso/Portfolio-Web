@@ -4,8 +4,7 @@ Este é um portfólio pessoal desenvolvido com React e Bootstrap para apresentar
 
 ## Pré-visualização
 
-<img src="https://github.com/user-attachments/assets/16515170-d939-41cc-ae5b-5803350d0f24" width="70%" alt="desktop"/>
-
+![preview](https://github.com/user-attachments/assets/c3983eaa-4004-4816-9b7a-616bfd02070f)
 
 ## Descrição
 
@@ -20,7 +19,7 @@ A navegação entre páginas é feita com React Router, proporcionando uma exper
 - Ícones interativos para contato direto via **LinkedIn**, **e-mail**, **WhatsApp** e acesso ao **GitHub**.
 - Rodapé condicional que aparece apenas na Página Inicial para manter o foco do conteúdo nas outras páginas.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Roteamento de páginas com React Router
 - Layout responsivo com Bootstrap
