@@ -1,80 +1,50 @@
-# 🚧 Em construção...
+# Portfólio Pessoal
 
-## Documentação React:
+Este é um portfólio pessoal desenvolvido com React e Bootstrap para apresentar minha trajetória, habilidades e projetos como desenvolvedora em transição de carreira. A interface é responsiva, intuitiva e permite fácil navegação entre seções como Página Inicial, Sobre Mim e Projetos.
 
-https://react.dev/learn
+## Pré-visualização
 
-## Documentação Bootstrap-React: 
+<img src="https://github.com/user-attachments/assets/16515170-d939-41cc-ae5b-5803350d0f24" width="70%" alt="desktop"/>
 
-https://react-bootstrap.github.io/
 
-# Getting Started with Create React App
+## Descrição
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto foi desenvolvido com o objetivo de centralizar as principais informações da minha carreira em tecnologia. Além de compartilhar meus projetos, o portfólio também facilita o contato profissional por meio do download do CV, ícones interativos de redes sociais, e-mail e WhatsApp.
 
-## Available Scripts
+A navegação entre páginas é feita com React Router, proporcionando uma experiência fluida sem recarregamento da página. Cada seção do portfólio foi criada como um componente separado, facilitando a manutenção e escalabilidade.
 
-In the project directory, you can run:
+## Usabilidade
 
-### `npm start`
+- Navegação simples e intuitiva com links para **Página Inicial**, **Sobre Mim** e **Projetos**.
+- Layout responsivo que se adapta a diferentes tamanhos de tela (mobile, tablet, desktop).
+- Ícones interativos para contato direto via **LinkedIn**, **e-mail**, **WhatsApp** e acesso ao **GitHub**.
+- Rodapé condicional que aparece apenas na Página Inicial para manter o foco do conteúdo nas outras páginas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Roteamento de páginas com React Router
+- Layout responsivo com Bootstrap
+- Navegação dinâmica sem recarregar a página
+- Componentes reutilizáveis para estrutura clara e coesa
+- Links externos para redes sociais e contatos
+- Estilização customizada com CSS e classes do Bootstrap
 
-### `npm test`
+## Tecnologias utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/) — Biblioteca JavaScript para construção da interface
+- [React Router](https://reactrouter.com/) — Gerenciamento de rotas da aplicação
+- [Bootstrap](https://getbootstrap.com/) — Framework CSS para responsividade e design
+- HTML5, CSS3 — Marcação e estilos personalizados
+- SVG Icons — Ícones personalizados para contato
+- Git & GitHub — Versionamento de código e hospedagem
 
-### `npm run build`
+## Autora
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para mais informações, sinta-se à vontade para entrar em contato:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/57cac2a3-49b1-4a0a-aef3-e968523971eb" width="15%" alt="autora" />
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Github](https://github.com/luizadaso)
+- [Linkedin](https://www.linkedin.com/in/luizadaso)
