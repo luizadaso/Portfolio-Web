@@ -4,7 +4,7 @@ Este é um portfólio pessoal desenvolvido com React e Bootstrap para apresentar
 
 ## Pré-visualização
 
-<img src="https://github.com/user-attachments/assets/c3983eaa-4004-4816-9b7a-616bfd02070f" width="65%" alt="preview-web"/>
+<img src="https://github.com/user-attachments/assets/c3983eaa-4004-4816-9b7a-616bfd02070f" width="70%" alt="preview-web"/>
 
 ## Descrição
 
