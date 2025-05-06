@@ -17,8 +17,8 @@ function App() {
       <div>
         <Navbar className="barraSuperior" bg="dark" data-bs-theme="dark">
           <Container className="justify-content-center">
-          <Navbar.Brand as={Link} to="/">
-          <span className="logotipo">
+          <Navbar.Brand className="logotipo me-auto" as={Link} to="/">
+          <span>
             Ana Dev
           </span>
               <img
@@ -29,7 +29,7 @@ function App() {
                 className="d-inline-block align-top"
               />
             </Navbar.Brand>
-            <Nav className="mx-auto">
+            <Nav>
               <Nav.Link as={Link} to="/">Página inicial</Nav.Link>
               <Nav.Link as={Link} to="/sobre-mim">Sobre mim</Nav.Link>
               <Nav.Link as={Link} to="/projetos">Projetos</Nav.Link>
