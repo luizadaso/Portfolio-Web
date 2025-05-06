@@ -7,7 +7,7 @@
   }
   
   .cards-inferiores {
-    width: 40vh;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: transparent;
