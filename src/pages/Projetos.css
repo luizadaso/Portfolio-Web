@@ -28,7 +28,7 @@
     transition: transform 0.4s ease;
     border: 2px solid var(--tertiary-color);
     color: var(--text-color);
-    margin: 10px;
+    margin: 5px;
   }
   
   .buttons-cards-inferiores:hover {

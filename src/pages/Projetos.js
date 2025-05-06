@@ -15,15 +15,18 @@ function Projetos() {
             Sorteador de Amigo Secreto com gerador de QR Code.
         </Card.Text>
         <div className="mt-1 row text-center">
-        <a href="https://luizadaso.github.io/Projeto-Challenge-Amigo-Secreto/" className="no-underline">
+        <div>
           <img
             src={amigoSecreto}
             alt="amigo-secreto"
             className="imagens-projetos img-fluid ms-1"
           />
-        </a>
+        </div>
           <Button className="buttons-cards-inferiores" href="https://luizadaso.github.io/Projeto-Challenge-Amigo-Secreto/">
-            Acesse
+            Acesse o projeto
+          </Button>
+          <Button className="buttons-cards-inferiores" href="https://github.com/luizadaso/Projeto-Challenge-Amigo-Secreto">
+            Repositório
           </Button>
         </div>
       </Card>
@@ -33,15 +36,18 @@ function Projetos() {
             Busque e visualize informações detalhadas sobre os Pokémons.
         </Card.Text>
         <div className="mt-1 row text-center">
-        <a href="https://pokedex-da-ana.vercel.app/" className="no-underline">
+        <div>
           <img
             src={pokedex}
             alt="pokedex"
             className="imagens-projetos img-fluid ms-1"
           />
-        </a>
+        </div>
           <Button className="buttons-cards-inferiores" href="https://pokedex-da-ana.vercel.app/">
-            Acesse
+            Acesse o projeto
+          </Button>
+          <Button className="buttons-cards-inferiores" href="https://github.com/luizadaso/Pokedex-da-Ana">
+            Repositório
           </Button>
         </div>
       </Card>
@@ -51,15 +57,15 @@ function Projetos() {
             Página de login com validação dos campos de e-mail e senha.
         </Card.Text>
         <div className="mt-1 row text-center">
-        <a href="https://github.com/luizadaso/Teste-de-Web-Scraping" className="no-underline">
+        <div>
           <img
             src={telaLogin}
             alt="amigo-secreto"
             className="imagens-projetos img-fluid ms-1"
           />
-        </a>
+        </div>
           <Button className="buttons-cards-inferiores" href="https://github.com/luizadaso/Tela-de-Login-e-Recuperacao-de-Senha">
-            Acesse
+            Repositório
           </Button>
         </div>
       </Card>
