@@ -38,7 +38,7 @@ function App() {
 
 function SocialIcons() {
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
+    <div className="d-flex flex-column flex-md-row">
       <div className="iconesRedes">
         <a href="https://www.linkedin.com/in/luizadaso/" className="no-underline" target="_blank" rel="noopener noreferrer">
           <img
