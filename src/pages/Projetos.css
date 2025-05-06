@@ -23,7 +23,7 @@
   }
   
   .buttons-cards-inferiores {
-    width: 60%;
+    width: 95%;
     background-color: transparent;
     transition: transform 0.4s ease;
     border: 2px solid var(--tertiary-color);
