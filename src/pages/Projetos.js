@@ -8,13 +8,13 @@ import telaLogin from '../img/tela-login.png';
 function Projetos() {
 
   return (
-    <Container className="mt-0 d-flex justify-content-center align-items-center container-cards-inferiores">
-      <Card className="cards-inferiores me-3 align-items-center">
+    <Container className="container-cards-inferiores mt-0">
+      <Card className="cards-inferiores me-2">
         <Card.Header><h2>Amigo Secreto</h2></Card.Header>
         <Card.Text>
             Sorteador de Amigo Secreto com gerador de QR Code.
         </Card.Text>
-        <div className="mt-auto text-center">
+        <div className="mt-1 row text-center">
         <a href="https://luizadaso.github.io/Projeto-Challenge-Amigo-Secreto/" className="no-underline">
           <img
             src={amigoSecreto}
@@ -27,12 +27,12 @@ function Projetos() {
           </Button>
         </div>
       </Card>
-      <Card className="cards-inferiores me-3 align-items-center">
+      <Card className="cards-inferiores me-2">
         <Card.Header><h2>Pokédex</h2></Card.Header>
         <Card.Text>
             Busque e visualize informações detalhadas sobre os Pokémons.
         </Card.Text>
-        <div className="mt-auto text-center">
+        <div className="mt-1 row text-center">
         <a href="https://pokedex-da-ana.vercel.app/" className="no-underline">
           <img
             src={pokedex}
@@ -45,12 +45,12 @@ function Projetos() {
           </Button>
         </div>
       </Card>
-      <Card className="cards-inferiores me-3 align-items-center">
+      <Card className="cards-inferiores me-2">
         <Card.Header><h2>Tela de Login</h2></Card.Header>
         <Card.Text>
             Página de login com validação dos campos de e-mail e senha.
         </Card.Text>
-        <div className="mt-auto text-center">
+        <div className="mt-1 row text-center">
         <a href="https://github.com/luizadaso/Teste-de-Web-Scraping" className="no-underline">
           <img
             src={telaLogin}

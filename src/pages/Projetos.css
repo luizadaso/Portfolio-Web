@@ -3,11 +3,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
   }
   
   .cards-inferiores {
-    width: 100%;
+    width: 50%;
     justify-content: center;
     align-items: center;
     background-color: transparent;
@@ -24,6 +23,7 @@
   }
   
   .buttons-cards-inferiores {
+    width: 60%;
     background-color: transparent;
     transition: transform 0.4s ease;
     border: 2px solid var(--tertiary-color);
