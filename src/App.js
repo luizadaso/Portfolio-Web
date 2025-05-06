@@ -30,6 +30,11 @@ function App() {
           <Route path="/projetos" element={<Projetos />} />
         </Routes>
         <SocialIcons />
+        <Container className="text-center py-3">
+          <span style={{ color: 'gray' }}>
+            Desenvolvido por @luizadaso <br/> Todos os direitos reservados &copy; {new Date().getFullYear()}
+          </span>
+        </Container>
         <ConditionalFooter />
       </div>
     </Router>
