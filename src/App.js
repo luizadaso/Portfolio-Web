@@ -29,15 +29,35 @@ function App() {
           <Route path="/sobre-mim" element={<SobreMim />} />
           <Route path="/projetos" element={<Projetos />} />
         </Routes>
-        <SocialIcons />
+        <ConditionalFooterAndSocialIcons/>
         <Container className="text-center py-3">
           <span style={{ color: 'gray' }}>
             Desenvolvido por @luizadaso <br/> Todos os direitos reservados &copy; {new Date().getFullYear()}
           </span>
         </Container>
-        <ConditionalFooter />
       </div>
     </Router>
+  );
+}
+
+function ConditionalFooterAndSocialIcons() {
+  const location = useLocation();
+  const hidePaths = ['/sobre-mim', '/projetos'];
+
+  // Se a rota atual estiver nas páginas onde os ícones e o rodapé devem ser ocultados, retorna null
+  if (hidePaths.includes(location.pathname)) {
+    return null;
+  }
+
+  return (
+    <>
+      <SocialIcons />
+      <footer className="rodape bg-dark text-white text-center py-3 d-none d-md-block">
+        <Container>
+          <span>Desenvolvido por @luizadaso</span>
+        </Container>
+      </footer>
+    </>
   );
 }
 
@@ -85,23 +105,6 @@ function SocialIcons() {
         </a>
       </div>
     </div>
-  );
-}
-
-function ConditionalFooter() {
-  const location = useLocation();
-  const hideFooterPaths = ['/sobre-mim', '/projetos'];
-
-  if (hideFooterPaths.includes(location.pathname)) {
-    return null;
-  }
-
-  return (
-    <footer className="rodape bg-dark text-white text-center py-3 d-none d-md-block">
-      <Container>
-        <span>Desenvolvido por @luizadaso</span>
-      </Container>
-    </footer>
   );
 }
 
