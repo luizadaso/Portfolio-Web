@@ -11,6 +11,10 @@
   background: linear-gradient(to left, #030e4d, #730677);
 }
 
+.logotipo {
+  font-family: "Courgette", cursive;
+}
+
 .nav-link {
   color: var(--text-color);
   transition: transform 0.3s ease;

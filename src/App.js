@@ -9,6 +9,7 @@ import mail from './assets/mail.svg';
 import github from './assets/github.svg';
 import linkedin from './assets/linkedin.svg';
 import telefone from './assets/phone.svg';
+import logo from './assets/logo.png';
 
 function App() {
   return (
@@ -16,6 +17,18 @@ function App() {
       <div>
         <Navbar className="barraSuperior" bg="dark" data-bs-theme="dark">
           <Container className="justify-content-center">
+          <Navbar.Brand as={Link} to="/">
+          <span className="logotipo">
+            Ana Dev
+          </span>
+              <img
+                src={logo}
+                alt="Logotipo"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+              />
+            </Navbar.Brand>
             <Nav className="mx-auto">
               <Nav.Link as={Link} to="/">Página inicial</Nav.Link>
               <Nav.Link as={Link} to="/sobre-mim">Sobre mim</Nav.Link>
