@@ -29,7 +29,12 @@ function PaginaInicial() {
           Essa decisão reacendeu meu entusiasmo e estou mergulhada no mundo da programação!
         </Card.Text>
         <div className="mt-auto text-center text-md-start">
-          <Button className="buttonBaixarCV" href={CV} download="CV - Ana Luiza Da Silva Oliveira.pdf">
+          <Button className="buttonBaixarCV"
+            as="a"
+            href={CV}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Baixar CV
           </Button>
         </div>
