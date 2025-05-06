@@ -45,8 +45,7 @@
 
     .buttons-cards-inferiores {
       width: 75%;
-      background-color: var(--tertiary-color);
-      border: 2px solid var(--primary-color);
+      background-color: transparent;
     }
 
   }
