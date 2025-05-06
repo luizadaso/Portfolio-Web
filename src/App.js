@@ -17,7 +17,7 @@ function App() {
       <div>
         <Navbar className="barraSuperior" bg="dark" data-bs-theme="dark">
           <Container className="justify-content-center">
-          <Navbar.Brand className="logotipo me-auto" as={Link} to="/">
+          <Navbar.Brand className="logotipo me-auto d-none d-md-inline" as={Link} to="/">
           <span>
             Ana Dev
           </span>
@@ -30,7 +30,7 @@ function App() {
               />
             </Navbar.Brand>
             <Nav>
-              <Nav.Link as={Link} to="/">Página inicial</Nav.Link>
+              <Nav.Link as={Link} to="/" >Página inicial</Nav.Link>
               <Nav.Link as={Link} to="/sobre-mim">Sobre mim</Nav.Link>
               <Nav.Link as={Link} to="/projetos">Projetos</Nav.Link>
             </Nav>
