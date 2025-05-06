@@ -33,7 +33,7 @@
   
   .buttons-cards-inferiores:hover {
     background-color: var(--tertiary-color);
-    transform: scale(1.2);
+    transform: scale(1.1);
     border: 2px solid var(--primary-color);
   }
 
