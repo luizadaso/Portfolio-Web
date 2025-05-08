@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
-import SobreMim from './pages/AboutMe';
+import AboutMe from './pages/AboutMe';
 import HomePage from './pages/HomePage';
 import Projetos from './pages/Projects';
 import mail from './assets/mail.svg';
@@ -39,7 +39,7 @@ function App() {
         <br />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/sobre-mim" element={<SobreMim />} />
+          <Route path="/sobre-mim" element={<AboutMe />} />
           <Route path="/projetos" element={<Projetos />} />
         </Routes>
         <ConditionalFooterAndSocialIcons/>
