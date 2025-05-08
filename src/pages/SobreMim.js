@@ -11,9 +11,9 @@ function SobreMim() {
           <Card.Body>
             <Card.Text>
             Desde a infância, sempre tive uma paixão por tecnologia, especialmente pelos jogos. Porém, as limitações
-            financeiras da minha família significavam que, enquanto meus amigos já possuíam um PlayStation 1, eu me
-            tinha um PolyStation, que me divertia muito. Havia um considerável atraso
-            na adoção de novas tecnologias em minha casa. Quando via profissionais da área de tecnologia na televisão, 
+            financeiras da minha família me impediam. Enquanto meus amigos já possuíam um PlayStation 1, eu
+            tinha um PolyStation, que eu amava. Havia um considerável atraso
+            na adoção de novas tecnologias em minha casa. <br /><br />Quando via profissionais da área de tecnologia na televisão, 
             parecia algo impossível de se alcançar. Sempre ouvi que era necessário ser extremamente inteligente para atuar nesse 
             campo, o que me levou a acreditar que apenas os superdotados poderiam trabalhar com programação. Dessa forma,
             nunca considerei essa possibilidade para mim.  <br /><br /> 
