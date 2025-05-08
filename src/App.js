@@ -43,11 +43,11 @@ function App() {
           <Route path="/projetos" element={<Projetos />} />
         </Routes>
         <ConditionalFooterAndSocialIcons/>
-        <Container className="text-center py-3">
-          <span style={{ color: 'gray' }}>
-            Desenvolvido por @luizadaso <br/> Todos os direitos reservados &copy; {new Date().getFullYear()}
-          </span>
-        </Container>
+          <Container className="text-center py-3">
+            <span style={{ color: 'gray' }}>
+              Desenvolvido por @luizadaso <br/> Todos os direitos reservados &copy; {new Date().getFullYear()}
+            </span>
+          </Container>
       </div>
     </Router>
   );
