@@ -1,7 +1,7 @@
 import { Container, Card } from 'react-bootstrap';
-import './SobreMim.css';
+import './AboutMe.css';
 
-function SobreMim() {
+function AboutMe() {
   return (
     <Container className="sobreMimContainer mt-0 d-flex justify-content-center align-items-center">
       <Card className="cardBody-sobreMim mt-0 order-2 order-md-1 text-center justify-content-center align-items-center">
@@ -54,4 +54,4 @@ function SobreMim() {
   );
 }
 
-export default SobreMim;
+export default AboutMe;

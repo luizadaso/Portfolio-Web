@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Card, Button } from 'react-bootstrap';
-import './Projetos.css';
+import './Projects.css';
 import amigoSecreto from '../img/amigo-secreto.png';
 import pokedex from '../img/pokedex.png';
 import telaLogin from '../img/tela-login.png';
 
-function Projetos() {
+function Projects() {
 
   return (
     <Container className="container-cards-inferiores mt-0">
@@ -73,4 +73,4 @@ function Projetos() {
   );
 }
 
-export default Projetos;
+export default Projects;
