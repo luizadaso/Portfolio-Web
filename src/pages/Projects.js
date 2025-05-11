@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Card, Button } from 'react-bootstrap';
 import './Projects.css';
 import amigoSecreto from '../img/amigo-secreto.png';
