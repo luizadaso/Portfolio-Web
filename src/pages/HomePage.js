@@ -4,7 +4,7 @@ import pontoDeLuzImg from '../assets/Ponto-de-luz.png';
 import CV from '../assets/CV - Ana Luiza Da Silva Oliveira.pdf';
 import './HomePage.css';
 
-function PaginaInicial() {
+function HomePage() {
   return (
     <Container className="mt-2 d-flex justify-content-center align-items-center container-body flex-column flex-md-row">
       <Card className="cardBody me-3 order-2 order-md-1 text-center text-md-start">
@@ -47,4 +47,4 @@ function PaginaInicial() {
   );
 }
 
-export default PaginaInicial;
+export default HomePage;
