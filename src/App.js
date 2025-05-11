@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
