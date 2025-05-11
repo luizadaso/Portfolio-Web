@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Card, Button } from 'react-bootstrap';
 import minhaImagem from '../assets/Foto-Tech.png';
 import pontoDeLuzImg from '../assets/Ponto-de-luz.png';
