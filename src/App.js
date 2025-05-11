@@ -56,7 +56,6 @@ function ConditionalFooterAndSocialIcons() {
   const location = useLocation();
   const hidePaths = ['/sobre-mim', '/projetos'];
 
-  // Se a rota atual estiver nas páginas onde os ícones e o rodapé devem ser ocultados, retorna null
   if (hidePaths.includes(location.pathname)) {
     return null;
   }
