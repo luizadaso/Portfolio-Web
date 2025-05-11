@@ -22,10 +22,18 @@ function Projects() {
             className="imagens-projetos img-fluid ms-1"
           />
         </div>
-          <Button className="buttons-cards-inferiores" href="https://luizadaso.github.io/Projeto-Challenge-Amigo-Secreto/">
+          <Button 
+            className="buttons-cards-inferiores" 
+            href="https://luizadaso.github.io/Projeto-Challenge-Amigo-Secreto/"
+            target="_blank" 
+            rel="noopener noreferrer">
             Acesse o projeto
           </Button>
-          <Button className="buttons-cards-inferiores" href="https://github.com/luizadaso/Projeto-Challenge-Amigo-Secreto">
+          <Button 
+            className="buttons-cards-inferiores" 
+            href="https://github.com/luizadaso/Projeto-Challenge-Amigo-Secreto"
+            target="_blank" 
+            rel="noopener noreferrer">
             Repositório
           </Button>
         </div>
@@ -43,10 +51,18 @@ function Projects() {
             className="imagens-projetos img-fluid ms-1"
           />
         </div>
-          <Button className="buttons-cards-inferiores" href="https://pokedex-da-ana.vercel.app/">
+          <Button 
+            className="buttons-cards-inferiores" 
+            href="https://pokedex-da-ana.vercel.app/"
+            target="_blank" 
+            rel="noopener noreferrer">
             Acesse o projeto
           </Button>
-          <Button className="buttons-cards-inferiores" href="https://github.com/luizadaso/Pokedex-da-Ana">
+          <Button 
+            className="buttons-cards-inferiores" 
+            href="https://github.com/luizadaso/Pokedex-da-Ana"
+            target="_blank" 
+            rel="noopener noreferrer">
             Repositório
           </Button>
         </div>
@@ -64,7 +80,11 @@ function Projects() {
             className="imagens-projetos img-fluid ms-1"
           />
         </div>
-          <Button className="buttons-cards-inferiores" href="https://github.com/luizadaso/Tela-de-Login-e-Recuperacao-de-Senha">
+          <Button 
+            className="buttons-cards-inferiores" 
+            href="https://github.com/luizadaso/Tela-de-Login-e-Recuperacao-de-Senha"
+            target="_blank" 
+            rel="noopener noreferrer">
             Repositório
           </Button>
         </div>
