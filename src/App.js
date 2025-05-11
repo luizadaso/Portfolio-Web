@@ -78,7 +78,11 @@ function SocialIcons() {
   return (
     <div className="d-flex flex-column flex-md-row">
       <div className="iconesRedes">
-        <a href="https://www.linkedin.com/in/luizadaso/" className="no-underline" target="_blank" rel="noopener noreferrer">
+        <a 
+          href="https://www.linkedin.com/in/luizadaso/" 
+          className="no-underline" 
+          target="_blank" 
+          rel="noopener noreferrer">
           <img
             src={linkedin}
             alt="linkedin"
@@ -88,7 +92,9 @@ function SocialIcons() {
         </a>
       </div>
       <div className="iconesRedes">
-        <a href="mailto:analuiza.daso@gmail.com" className="no-underline">
+        <a 
+          href="mailto:analuiza.daso@gmail.com" 
+          className="no-underline">
           <img
             src={mail}
             alt="e-mail"
@@ -98,7 +104,11 @@ function SocialIcons() {
         </a>
       </div>
       <div className="iconesRedes">
-        <a href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontrei+o+seu+portfolio.+Podemos+conversar?" className="no-underline" target="_blank" rel="noopener noreferrer">
+        <a 
+          href="https://api.whatsapp.com/send?phone=5522999955542&text=Ola,+Encontrei+o+seu+portfolio.+Podemos+conversar?" 
+          className="no-underline" 
+          target="_blank" 
+          rel="noopener noreferrer">
           <img
             src={telefone}
             alt="telefone"
@@ -108,7 +118,11 @@ function SocialIcons() {
         </a>
       </div>
       <div className="iconesRedes">
-        <a href="https://github.com/luizadaso" className="no-underline" target="_blank" rel="noopener noreferrer">
+        <a 
+          href="https://github.com/luizadaso" 
+          className="no-underline" 
+          target="_blank" 
+          rel="noopener noreferrer">
           <img
             src={github}
             alt="github"
