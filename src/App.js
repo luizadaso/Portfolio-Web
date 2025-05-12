@@ -44,7 +44,7 @@ function App() {
         <ConditionalFooterAndSocialIcons/>
           <Container className="text-center py-3">
             <span style={{ color: 'gray' }}>
-              Desenvolvido por @luizadaso <br/> Todos os direitos reservados &copy; {new Date().getFullYear()}
+              &copy; {new Date().getFullYear()} @luizadaso <br/> Todos os direitos reservados
             </span>
           </Container>
       </div>
