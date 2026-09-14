@@ -19,7 +19,7 @@ function HomePage() {
           </div>
         </Card.Title>
         <Card.Text className="Frase-cargo">
-          Desenvolvedora Full-stack
+          Desenvolvedora Back-end Java
         </Card.Text>
         <Card.Text className="d-none d-md-block">
           Desde a infância, a tecnologia sempre foi uma paixão que me impulsionou a explorar e aprender.
